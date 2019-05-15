@@ -1,0 +1,127 @@
+.footer{
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top: solid 1px #e6e6e6;
+}
+.footer .links{
+    text-align: center;
+    color: #666;
+    line-height: 30px;
+}
+.footer .links .link{
+    padding: 0 10px;
+}
+.footer .copyright{
+    text-align: center;
+    color: #666;
+    line-height: 30px;
+}
+
+/* 通用头部导航 */
+.header .logo{
+    width: 250px;
+    line-height: 124px;
+    text-align: center;
+    display: inline-block;
+}
+.header .logo-txt{
+    font-size: 36px;
+    color: #c60023;
+    font-weight: bold;
+    text-decoration: none;
+}
+.header .search-con{
+    display: inline-block;
+    padding: 40px 0;
+}
+.header .search-con .search-input{
+    width: 550px;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 10px;
+    font-size: 15px;
+    border: 2px solid #c60023;
+    outline: none;
+}
+.header .search-con .search-btn{
+    position: absolute;
+    height: 44px;
+    width: 80px;
+}
+
+/* 面包屑导航 */
+.crumb{
+    margin-bottom: 15px;
+    height: 50px;
+    line-height: 50px;
+    background: #eee;
+    color: #888;
+    font-size: 14px;
+    border-top: 2px solid #c60023;
+}
+
+.nav {
+    background: #eee;
+    height: 30px;
+    line-height: 30px;
+}
+
+/* 用户部分 */
+.nav .user {
+    float: left;
+}
+.nav .user .link {
+    margin-right: 5px;
+}
+
+/* 导航链接部分 */
+.nav .nav-list {
+    float: right;
+}
+
+.nav .nav-list .nav-item {
+    display: inline-block;
+    margin-left: 5px;
+}
+.nav .nav-list>.nav-item>.link {
+    padding-right: 5px;
+    border-right: 1px solid #999;
+}
+.nav .nav-list>li:last-child .link {
+    border: none;
+    padding-right: 0;
+}
+/* 导航主体 */
+.nav-side{
+    float: left;
+    width: 130px;
+    min-height: 100px;
+}
+.nav-side .nav-item{
+    line-height: 25px;
+    font-size: 13px;
+}
+.nav-side .nav-item .link{
+    color: #888;
+}
+.nav-side .nav-item.active .link{
+    color: #c60023;
+}
+/* 右侧内容区 */
+.content.with-nav{
+    float: left;
+    width: 950px;
+}
+.nav-simple{
+    height: 60px;
+    line-height: 60px;
+    border-bottom: 1px solid #ddd;
+    background: #fff;
+}
+.nav-simple .logo{
+    font-size: 26px;
+    font-weight: bold;
+    color: #c60023;
+    text-decoration: none;
+}

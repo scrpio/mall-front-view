@@ -1,0 +1,80 @@
+.wrap {
+  margin: 0 auto;
+  overflow: hidden;
+  background-color: #fff;
+}
+.w-panel {
+  background: url(../images/headbg.png) repeat-x left bottom;
+}
+.panel {
+  width: 1130px;
+  margin: 0 auto;
+}
+.h-panel {
+  height: 110px;
+  line-height: 110px;
+}
+.h-panel span {
+  font-size: 24px;
+  color: #333;
+  padding-left: 50px;
+}
+.container-form {
+  padding: 0 20px;
+  text-align: center;
+}
+.user-form-item {
+  position: relative;
+  margin-bottom: 20px;
+}
+.form-item-top {
+  margin-top: 30px;
+}
+.user-form-label {
+  position: absolute;
+  z-index: 3;
+  top: 1px;
+  left: 1px;
+  width: 38px;
+  height: 38px;
+  line-height: 38px;
+  border-right: 1px solid #bdbdbd;
+  background-color: #f1f1f1;
+}
+.user-form-input {
+  font-size: 14px;
+  line-height: 18px;
+  height: 18px;
+  padding: 10px 0 10px 50px;
+  width: 254px;
+  border: 1px solid #bdbdbd;
+}
+.form-input-code input {
+  width: 150px;
+}
+.user-form-btn {
+  width: 302px;
+  height: 38px;
+  line-height: 38px;
+  color: #fff;
+  font-size: 20px;
+  font-family: 'Microsoft YaHei';
+  background: #e4393c;
+  border: 1px solid #e85356;
+  cursor: pointer;
+}
+.captcha-btn {
+  width: 95px;
+  height: 40px;
+  text-align: center;
+  margin-left: 5px;
+  cursor: pointer;
+}
+.coagent {
+  height: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+  line-height: 50px;
+  border-top: 1px solid #f4f4f4;
+  background-color: #fcfcfc;
+}
