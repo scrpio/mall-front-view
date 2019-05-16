@@ -40,7 +40,7 @@
     <div class="w">
       <div class="floor-wrap" v-for="item in home" :key="item.id">
         <div v-if="item.type !== 0">
-          <div class="floorhd">
+          <div class="floorhd"  v-if="item.type !== 1">
             <div class="grid_c1 floorhd_inner">
               <h3 class="floorhd_tit">{{ item.name }}</h3>
             </div>
@@ -148,9 +148,11 @@ export default {
 .banner-wrap {
   position: relative;
   height: 370px;
+  margin-left: 8px;
+  margin-right: 8px;
 }
 .keywords-list {
-  width: 240px;
+  width: 232px;
   height: 350px;
   padding: 10px 0;
   margin-right: 10px;
@@ -248,7 +250,7 @@ export default {
 }
 /* banner-con */
 .banner-con {
-  width: 830px;
+  width: 822px;
   height: 370px;
   background: #eee;
 }
