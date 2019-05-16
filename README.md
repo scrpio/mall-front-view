@@ -1,6 +1,4 @@
-# »ùÓÚ vue2 + vuex ¹¹½¨µÄÉÌ³ÇÒ³Ãæ 
-
-> A Vue.js project
+> åŸºäº vue2 + vuex æ„å»ºçš„å•†åŸé¡µé¢
 
 ## Build Setup
 
