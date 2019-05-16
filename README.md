@@ -1,7 +1,5 @@
 > 基于 vue2 + vuex 构建的商城页面
 
-## Build Setup
-
 ``` bash
 # install dependencies
 npm install
